@@ -1,0 +1,14 @@
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\bin\Debug\netcoreapp2.1\BrandPromote.API.deps.json
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\bin\Debug\netcoreapp2.1\BrandPromote.API.runtimeconfig.json
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\bin\Debug\netcoreapp2.1\BrandPromote.API.runtimeconfig.dev.json
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\bin\Debug\netcoreapp2.1\BrandPromote.API.dll
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\bin\Debug\netcoreapp2.1\BrandPromote.API.pdb
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\obj\Debug\netcoreapp2.1\BrandPromote.API.csprojAssemblyReference.cache
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\obj\Debug\netcoreapp2.1\BrandPromote.API.csproj.CoreCompileInputs.cache
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\obj\Debug\netcoreapp2.1\BrandPromote.API.RazorAssemblyInfo.cache
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\obj\Debug\netcoreapp2.1\BrandPromote.API.RazorAssemblyInfo.cs
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\obj\Debug\netcoreapp2.1\BrandPromote.API.AssemblyInfoInputs.cache
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\obj\Debug\netcoreapp2.1\BrandPromote.API.AssemblyInfo.cs
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\obj\Debug\netcoreapp2.1\BrandPromote.API.RazorTargetAssemblyInfo.cache
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\obj\Debug\netcoreapp2.1\BrandPromote.API.dll
+C:\Users\Arthur Wood\Documents\GitHub\BrandPromote\BrandPromote.API\obj\Debug\netcoreapp2.1\BrandPromote.API.pdb

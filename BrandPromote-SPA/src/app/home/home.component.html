@@ -1,0 +1,19 @@
+<div class="container mt-5">
+  <div *ngIf="!registerMode" style="text-align: center">
+    <h1>Brand Connect</h1>
+    <h4>We connect photographers with local brands</h4>
+    <p class="lead">Sign up for immediate access to hundreds of brands</p>
+    <div class="text-center">
+      <button class="btn btn-primary btn-lg mr-2" (click)="registerModeToggle()">Register</button>
+      <button class="btn btn-info btn-lg">Learn more</button>
+    </div>
+  </div>
+
+  <div *ngIf="registerMode" class="container">
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <app-register (cancelRegister)="cancelRegisterMode(false)"></app-register>
+      </div>
+    </div>
+  </div>
+</div>

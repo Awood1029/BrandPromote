@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Brand Connect</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Browse</a>
+      </li>
+      <li class="nav-item float-right">
+        <a class="nav-link" href="#">Search</a>
+      </li>
+    </ul>
+    <form *ngIf="!loggedIn()" #loginForm="ngForm" class="form-inline my-2 my-lg-0" (ngSubmit)="login()">
+      <input class="form-control mr-sm-2" type="text" name="username" placeholder="Username" required [(ngModel)]="model.username">
+      <input class="form-control mr-sm-2" type="password" name="password" placeholder="Password" required [(ngModel)]="model.password">
+      <button [disabled]="!loginForm.valid" class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+    </form>
+    <ul *ngIf="loggedIn()" class="navbar-nav float-right">
+      <li class="nav-item">
+        <a class="nav-link" href="#">My Account</a>
+      </li>
+    </ul>
+  </div>
+</nav>
