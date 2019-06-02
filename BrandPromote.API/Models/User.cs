@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace BrandPromote.API.Models
 {
     public class User 
@@ -11,5 +13,7 @@ namespace BrandPromote.API.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string UserType { get; set; }
+        public ICollection<Photo> Photos { get; set; }
+        
     }
 }
